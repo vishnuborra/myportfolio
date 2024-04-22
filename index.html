@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>BORRA VISHNU CHAITHANYA | Software Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>BORRA VISHNU CHAITHANYA</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img
+          src="images/vishnuuu.JPG"
+          alt="Vishnu Chaithanya"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Heyyy...! <br>I'm Borra Vishnu Chaithanya, an aspiring software developer. I love solving problems and believe in the transformative power of technology. With a background in Computer Science, I'm dedicated to learning and staying updated with the latest trends. Whether it's creating user-friendly interfaces or collaborating on complex projects, I'm committed to making a positive impact through software development.
+          </p>
+        </div>
+    </section>
+    
+  
+  
+
+    <!-- More about -->
+<section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+        In addition to my web development journey, I've honed my problem-solving skills through competitive programming. This experience has not only sharpened my algorithmic thinking but has also instilled in me the importance of efficiency and optimization in coding practices.
+      </p>
+      <p>
+        Beyond coding, I find joy in mentoring and sharing knowledge. I have served as a mentor for numerous students, guiding them in the intricacies of data structures and algorithms. Being part of their learning journey is incredibly fulfilling, and I am always excited to contribute to the growth of aspiring developers.
+      </p>
+      <p>
+        My commitment to continuous learning, combined with practical experience and a passion for helping others succeed, fuels my drive to make a positive impact in the field of software development.
+      </p>
+  </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="images/html.png"
+              alt="html"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="images/css.png"
+              alt="css"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="images/javascript.png"
+              alt="javascript"
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="images/react.png"
+              alt="react"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="images/git.png"
+              alt="git"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="images/java.png"
+              alt="java"
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="images/port.jpg"
+            alt="portfolio"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">My Portfolio</h3>
+          <p class="project-details">
+            My portfolio website is a showcase of my software development expertise, featuring a responsive design for optimal viewing across devices. Smooth navigation guides visitors through project displays, complete with live links for interactive exploration.It also includes accessible source code and fostering transparency. Additionally, a downloadable CV provides comprehensive insights into my skills and qualifications for potential employers.</p>
+          <div class="project-buttons">
+            <a href="https://khaleedhkhan.github.io/portfolio" target="_blank" class="project-button">View Project</a>
+            <a href="https://github.com/khaleedhkhan" target="_blank" class="project-button">View Source Code</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mqkrwdgl" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder=" Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder=" Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder=" Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      
+      <a href="https://www.instagram.com/vishnuchaithanya_341/?hl=en" target="_blank"
+        ><img
+          src="images/insta.png"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/vishnu-chaithanya-borra-a3607a260/" target="_blank"
+        ><img
+          src="images/linkedin.png"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/vishnuborra" target="_blank"
+        ><img src="images/github.png" 
+        alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Click to Download CV-->
+  
+    <i class="CV" id="CV">
+      <img src="images/CV.png" class="socicon CVicon" alt="CV" onclick="openCV()">
+  </i>
+  
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="images/scrollup.png"
+      class="socicon up-arrow"
+      alt="scroll-up"
+  /></i>
+
+
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/KhaleedhKhan" target="_blank"
+          >Vishnu Chaithanya</a
+        >
+      </p>
+</footer>
+
+
+    <!-- Website scripts -->
+    <script src="java.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
