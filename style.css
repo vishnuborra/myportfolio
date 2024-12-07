@@ -178,8 +178,11 @@ nav {
   }
   
   .project-pic {
-    width: 64%;
-    height: 27%;
+    width: 100%; /* Adjust image width to fit the card */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 200px; /* Optional: Limits the image height */
+    object-fit: contain; /* Ensures the image stays within bounds */
+    margin-bottom: 20px; /* Adds spacing below the image */
   }
   
   .projects-container {
@@ -217,8 +220,11 @@ nav {
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
-    height: 600px; /* Adjust the height as needed */
-    overflow: hidden; /* Optional: Hide overflow content */
+    height: 600px; /* Ensures consistent height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Hides overflow if content exceeds the height */
     
     
   }
@@ -226,7 +232,7 @@ nav {
   .project-buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: auto;
   }
   
   .project-button {
